@@ -1,0 +1,4 @@
+databaseChangeLog:
+  - includeAll:
+      errorIfMissingOrEmpty: false
+      path: classpath*:db/changelog/_main

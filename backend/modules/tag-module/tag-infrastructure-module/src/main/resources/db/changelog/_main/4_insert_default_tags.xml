@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xmlns:pro="http://www.liquibase.org/xml/ns/pro"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd
+        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd
+        http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-latest.xsd">
+
+    <changeSet id="4_insert_default_tags" author="patryk.swietlik">
+
+        <insert tableName="tag">
+            <column name="id" value="b21c9052-1a3a-4c5e-8c30-5aeca22fb268"/>
+            <column name="eng_name" value="Technology"/>
+            <column name="pl_name" value="Technologia"/>
+            <column name="removable" value="false" />
+        </insert>
+
+        <insert tableName="tag">
+            <column name="id" value="794fc6b8-2987-4527-8cd4-3f39ee5b93ca"/>
+            <column name="eng_name" value="Gadget"/>
+            <column name="pl_name" value="Gadżet"/>
+            <column name="removable" value="false" />
+        </insert>
+
+        <insert tableName="tag">
+            <column name="id" value="1bcdb13f-ddab-4a65-86c8-b7aa6ee42274"/>
+            <column name="eng_name" value="Software"/>
+            <column name="pl_name" value="Oprogramowanie"/>
+            <column name="removable" value="false" />
+        </insert>
+
+        <insert tableName="tag">
+            <column name="id" value="95d661eb-40d4-4f9d-9f69-9f58cbd7f108"/>
+            <column name="eng_name" value="Apps"/>
+            <column name="pl_name" value="Aplikacje"/>
+            <column name="removable" value="false" />
+        </insert>
+
+    </changeSet>
+
+
+</databaseChangeLog>

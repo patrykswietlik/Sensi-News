@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xmlns:pro="http://www.liquibase.org/xml/ns/pro"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd
+        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd
+        http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-latest.xsd">
+
+    <changeSet id="3_add_fk_article_tag_to_article_tags" author="patryk.swietlik">
+
+        <addForeignKeyConstraint
+                baseTableName="article_tags"
+                baseColumnNames="article_id"
+                constraintName="fk_article"
+                referencedTableName="article"
+                referencedColumnNames="id" />
+
+        <addForeignKeyConstraint
+                baseTableName="article_tags"
+                baseColumnNames="tag_id"
+                constraintName="fk_tag"
+                referencedTableName="tag"
+                referencedColumnNames="id" />
+
+    </changeSet>
+
+
+</databaseChangeLog>

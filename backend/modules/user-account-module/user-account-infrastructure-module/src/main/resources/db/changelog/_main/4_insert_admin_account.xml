@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xmlns:pro="http://www.liquibase.org/xml/ns/pro"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd
+        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd
+        http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-latest.xsd">
+
+    <changeSet id="4_insert_admin_account" author="patryk.swietlik">
+
+        <insert tableName="user_account">
+            <column name="id" value="a72d3b97-c635-433d-b313-df13a9cd067d"/>
+            <column name="email" value="admin@admin.com"/>
+            <column name="username" value="admin" />
+            <column name="password" value="$2a$10$BRPOHJMOJqFcoMwibzzdD.5cWCcOWGj2L.COpCGZPMZYU0Gk5prby" />
+            <column name="role" value="ADMIN" />
+            <column name="created_at" valueDate="now()"/>
+        </insert>
+
+    </changeSet>
+
+
+</databaseChangeLog>

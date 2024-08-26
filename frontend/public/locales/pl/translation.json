@@ -1,0 +1,356 @@
+{
+    "navbar": {
+        "languagePL": {
+            "label": "Polski"
+        },
+        "languageENG": {
+            "label": "Angielski"
+        },
+        "signIn": {
+            "label": "Zaloguj się"
+        },
+        "signOut": {
+            "label": "Wyloguj się"
+        },
+        "addArticle": {
+            "label": "Dodaj artykuł"
+        },
+        "editTags": {
+            "label": "Edytuj tagi"
+        },
+        "editArticlesStatus": {
+            "label": "Status artykułów"
+        }
+    },
+
+    "navbarFooter": {
+        "technology": {
+            "label": "TECHNOLOGIA"
+        },
+        "gadget": {
+            "label": "GADŻETY"
+        },
+        "software": {
+            "label": "OPROGRAMOWANIE"
+        },
+        "apps": {
+            "label": "APLIKACJE"
+        },
+        "other": {
+            "label": "INNE"
+        }
+    },
+
+    "startArticles": {
+        "noArticle": {
+            "label": "Brak artykułów"
+        }
+    },
+
+    "trilerOfArticle": {
+        "latestArticles": {
+            "label": "Najnowsze artykuły"
+        },
+        "viewAll": {
+            "label": "Zobacz wszystko"
+        }
+    },
+
+    "articleContent": {
+        "mustRead": {
+            "label": "Koniecznie przeczytaj"
+        },
+        "allArticles": {
+            "label": "Wszystkie artykuły"
+        },
+        "addComment": {
+            "label": "Dodaj komentarz"
+        },
+        "commentRequired": {
+            "label": "Komentarz jest wymagany"
+        },
+        "comments": {
+            "label": "Komentarze"
+        },
+        "delete": {
+            "label": "Usuń"
+        },
+        "edit": {
+            "label": "Edytuj"
+        },
+        "noImage": {
+            "label": "Brak obrazu"
+        },
+        "commentTooLong": {
+            "label": "Komentarz musi być krótszy niż 1500 znaków"
+        },
+        "edited": {
+            "label": "Edytowano"
+        },
+        "views": {
+            "label": "Wyświetlenia"
+        },
+        "ratingCreated":
+        {
+            "label": "Ocena dodana"
+        },
+        "ratingDeleted": {
+            "label": "Ocena usunięta"
+        }
+    },
+
+    "footer": {
+        "caseStudies": {
+            "label": "NASZE PROJEKTY"
+        },
+        "team": {
+            "label": "ZESPÓŁ"
+        },
+        "contactUs": {
+            "label": "KONTAKT"
+        }
+    },
+
+    "signIn": {
+        "password": {
+            "label": "Hasło"
+        },
+        "login": {
+            "label": "Login"
+        },
+        "username": {
+            "label": "Nazwa użytkownika"
+        },
+        "confirmPassword": {
+            "label": "Potwierdź hasło"
+        },
+        "emailError": {
+            "label": "Nieprawidłowy adres e-mail"
+        },
+        "passwordsMatchError": {
+            "label": "Hasła nie są zgodne"
+        },
+        "emailRequired": {
+            "label": "Adres email jest wymagany"
+        },
+        "usernameRequired": {
+            "label": "Nazwa użytkownika jest wymagana"
+        },
+        "passwordRequired": {
+            "label": "Hasło jest wymagane"
+        },
+        "usernameTooShort": {
+            "label": "Nazwa użytkownika musi zawierać co najmniej 5 znaków"
+        },
+        "usernameTooLong": {
+            "label": "Nazwa użytkownika być krótsza niż 255 znaków"
+        },
+        "emailTooShort": {
+            "label": "Email musi zawierać co najmniej 5 znaków"
+        },
+        "emailTooLong": {
+            "label": "Email musi być krótsza niż 255 znaków"
+        },
+        "passwordTooShort": {
+            "label": "Hasło musi zawierać co najmniej 8 znaków"
+        },
+        "passwordTooLong": {
+            "label": "Hasło musi być krótsze niż 255 znaków"
+        },
+        "account": {
+            "label": "Nie masz konta?"
+        },
+        "signUp": {
+            "label": "Zarejestruj się"
+        },
+        "signIn": {
+            "label": "Zaloguj się"
+        },
+        "showPassword": {
+            "label": "Pokaż hasło"
+        },
+        "usernameHelper": {
+            "label": "Tą nazwą będzie podpisany twój artykuł"
+        },
+        "registrationSuccess": {
+            "label": "Rejestracja przebiegła pomyślnie"
+        },
+        "accountAlreadyExists": {
+            "label": "Konto już istnieje"
+        },
+        "userNotFound": {
+            "label": "Nie znaleziono użytkownika"
+        },
+        "wrongPassword": {
+            "label": "Błędne hasło"
+        },
+        "invalidToken": {
+            "label": "Nieprawidłowa autoryzacja"
+        },
+        "invalidReCaptcha": {
+            "label": "Weryfikacja reCaptcha nie powiodła się, proszę odswieżyć stronę"
+        },
+        "haveAccount": {
+            "label": "Masz już konto?"
+        }
+    },
+
+    "newArticle": {
+        "titleRequired":  {
+            "label": "Tytuł jest wymagany"
+        },
+        "contentRequired":  {
+            "label": "Treść jest wymagana"
+        },
+        "imageRequired":  {
+            "label": "Zdjęcie jest wymagane"
+        },
+        "tagsRequired":  {
+            "label": "Co najmniej jeden tag jest wymagany"
+        },
+        "newArticleHeader":  {
+            "label": "Dodaj nowy artykuł"
+        },
+        "title":  {
+            "label": "Tytuł"
+        },
+        "content":  {
+            "label": "Treść"
+        },
+        "uploadImage":  {
+            "label": "Prześlij obraz"
+        },
+        "uploadedImage": {
+            "label": "Obraz przesłany"
+        },
+        "tags":  {
+            "label": "Tagi"
+        },
+        "ai": {
+            "label" : "AI"
+        },
+        "aiError": {
+            "label" : "Nie udało się wygenerować treści"
+        },
+        "selectTags":  {
+            "label": "Wybierz tagi"
+        },
+        "publish":  {
+            "label": "Opublikuj"
+        },
+        "titleTooLong": {
+            "label": "Tytuł musi być krótszy niż 255 znaków"
+        },
+        "contentTooLong": {
+            "label": "Treść musi być krótsza niż 5000 znaków"
+        },
+        "titleTooShort": {
+            "label": "Tytuł musi mieć co najmniej 30 znaków"
+        },
+        "contentTooShort": {
+            "label": "Treść musi mieć co najmniej 30 znaków"
+        },
+        "editArticleHeader": {
+            "label": "Edytuj swój artykuł"
+        },
+        "deleteArticle": {
+            "label": "Usuń artykuł"
+        },
+        "deleteArticleConfirmation": {
+            "label": "Czy na pewno chcesz usunąć ten artykuł?"
+        }
+    },
+
+    "editTags": {
+        "id": {
+            "label": "ID"
+        },
+        "engName": {
+            "label": "Nazwa angielska"
+        },
+        "plName": {
+            "label": "Nazwa polska"
+        },
+        "deletedOn": {
+            "label": "Usunięto dnia"
+        },
+        "engNameRequired": {
+            "label": "Nazwa angielska jest wymagana"
+        },
+        "plNameRequired": {
+            "label": "Nazwa polska jest wymagana"
+        },
+        "addTag": {
+            "label": "Dodaj nowy tag"
+        },
+        "deleteConfirmation": {
+            "label": "Czy na pewno chcesz usunąć ten tag?"
+        },
+        "confirm": {
+            "label": "Potwierdź"
+        },
+        "cancel": {
+            "label": "Anuluj"
+        },
+        "notApplicable": {
+            "label": "Nie dot."
+        }
+    },
+
+    "editArticlesStatus" : {
+        "id": {
+            "label": "ID"
+        },
+        "userAccountId": {
+            "label": "ID użytkownika"
+        },
+        "userAccountUsername": {
+            "label": "Nazwa użytkownika"
+        },
+        "title":  {
+            "label": "Tytuł"
+        },
+        "content":  {
+            "label": "Treść"
+        },
+        "preview":  {
+            "label": "Podgląd"
+        },
+        "createdAt":  {
+            "label": "Data utworzenia"
+        },
+        "actions": {
+            "label": "Akcje"
+        },
+        "close": {
+            "label": "Zamknij"
+        },
+        "imageDisplay": {
+            "label": "Pokaż zdjęcie"
+        },
+        "approveConfirmation": {
+            "label": "Czy na pewno chcesz zatwierdzić ten artykuł?"
+        },
+        "rejectConfirmation": {
+            "label": "Czy na pewno chcesz odrzucić ten artykuł?"
+        }
+    },
+
+    "errors": {
+        "default": {
+            "label": "Coś poszło nie tak, spróbuj ponownie później"
+        },
+        "sessionExpired": {
+            "label": "Sesja wygasła, zaloguj się ponownie"
+        },
+        "tagCannotBeRemoved": {
+            "label": "Tag nie może zostać usunięty"
+        },
+        "pageNotFound": {
+            "label": "404 - Nie znaleziono strony"
+        },
+        "backToHome": {
+            "label": "Powrót do strony głównej"
+        }
+    }
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xmlns:pro="http://www.liquibase.org/xml/ns/pro"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd
+        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd
+        http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-latest.xsd">
+
+    <changeSet  id="6_add_fk_article_user_account_to_rating"  author="patryk.swietlik">
+
+        <addForeignKeyConstraint
+                baseTableName="rating"
+                baseColumnNames="article_id"
+                constraintName="fk_article_id_rating"
+                referencedTableName="article"
+                referencedColumnNames="id"
+                onDelete="CASCADE" />
+
+        <addForeignKeyConstraint
+                baseTableName="rating"
+                baseColumnNames="user_account_id"
+                constraintName="fk_user_account_id_rating"
+                referencedTableName="user_account"
+                referencedColumnNames="id" />
+
+    </changeSet>
+
+</databaseChangeLog>

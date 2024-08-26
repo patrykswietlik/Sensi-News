@@ -1,0 +1,356 @@
+{   
+    "navbar": {
+        "languagePL": {
+            "label": "Polish"
+        },
+        "languageENG": {
+            "label": "English"
+        },
+        "signIn": {
+            "label": "Sign In"
+        },
+        "signOut": {
+            "label": "Sign Out"
+        },
+        "addArticle": {
+            "label": "Add article"
+        },
+        "editTags": {
+            "label": "Edit tags"
+        },
+        "editArticlesStatus": {
+            "label": "Articles Status"
+        }
+    },
+
+    "navbarFooter": {
+        "technology": {
+            "label": "TECHNOLOGY"
+        },
+        "gadget": {
+            "label": "GADGET"
+        },
+        "software": {
+            "label": "SOFTWARE"
+        },
+        "apps": {
+            "label": "APPS"
+        },
+        "other": {
+            "label": "OTHER"
+        }
+    },
+
+    "startArticles": {
+        "noArticle": {
+            "label": "No article"
+        }
+    },
+
+    "trilerOfArticle": {
+        "latestArticles": {
+            "label": "Latest articles"
+        },
+        "viewAll": {
+            "label": "View All"
+        }
+    },
+
+    "articleContent": {
+        "mustRead": {
+            "label": "Must read"
+        },
+        "allArticles": {
+            "label": "All articles"
+        },
+        "addComment": {
+            "label": "Add comment"
+        },
+        "commentRequired": {
+            "label": "Comment is required"
+        },
+        "comments": {
+            "label": "Comments"
+        },
+        "delete": {
+            "label": "Delete"
+        },
+        "edit": {
+            "label": "Edit"
+        },
+        "noImage": {
+            "label": "No image"
+        },
+        "commentTooLong": {
+            "label": "Comment must be shorter than 1500 characters"
+        },
+        "edited": {
+            "label": "Edited"
+        },
+        "views": {
+            "label": "Views"
+        },
+        "ratingCreated":
+        {
+            "label": "Rating added"
+        },
+        "ratingDeleted": {
+            "label": "Rating deleted"
+        }
+    },
+    
+    "footer": {
+        "caseStudies": {
+            "label": "CASE STUDIES"
+        },
+        "team": {
+            "label": "TEAM"
+        },
+        "contactUs": {
+            "label": "CONTACT US"
+        }
+    },
+
+    "signIn": {
+        "password": {
+            "label": "Password"
+        },
+        "login": {
+            "label": "Login"
+        },
+        "username": {
+            "label": "Username"
+        },
+        "confirmPassword": {
+            "label": "Confirm password"
+        },
+        "emailError": {
+            "label": "Invalid email address"
+        },
+        "passwordsMatchError": {
+            "label": "Passwords do not match"
+        },
+        "emailRequired": {
+            "label": "Email is required"
+        },
+        "usernameRequired": {
+            "label": "Username is required"
+        },
+        "passwordRequired": {
+            "label": "Password is required"
+        },
+        "usernameTooShort": {
+            "label": "Username must be at least 5 characters long"
+        },
+        "usernameTooLong": {
+            "label": "Username must be shorter than 255 characters"
+        },
+        "emailTooShort": {
+            "label": "Email must be at least 5 characters long"
+        },
+        "emailTooLong": {
+            "label": "Email must be shorter than 255 characters"
+        },
+        "passwordTooShort": {
+            "label": "Password must be at least 8 characters long"
+        },
+        "passwordTooLong": {
+            "label": "Password must be shorter than 255 characters"
+        },
+        "account": {
+            "label": "Don't have an account?"
+        },
+        "signUp": {
+            "label": "Sign Up"
+        },
+        "signIn": {
+            "label": "Sign In"
+        },
+        "showPassword": {
+            "label": "Show password"
+        },
+        "usernameHelper": {
+            "label": "This name will be the signature of your article"
+        },
+        "registrationSuccess": {
+            "label": "Registration successful"
+        },
+        "accountAlreadyExists": {
+            "label": "Account already exists"
+        },
+        "userNotFound": {
+            "label": "User not found"
+        },
+        "wrongPassword": {
+            "label": "Wrong password"
+        },
+        "invalidToken": {
+            "label": "Invalid authorization"
+        },
+        "invalidReCaptcha": {
+            "label": "ReCaptcha validation failed, please reload the page"
+        },
+        "haveAccount": {
+            "label": "Already have an account?"
+        }
+    },
+
+    "newArticle": {
+        "titleRequired":  {
+            "label": "Title is required"
+        },
+        "contentRequired":  {
+            "label": "Content is required"
+        },
+        "imageRequired":  {
+            "label": "Image is required"
+        },
+        "tagsRequired":  {
+            "label": "At least one tag is required"
+        },
+        "newArticleHeader":  {
+            "label": "Add new article"
+        },
+        "title":  {
+            "label": "Title"
+        },
+        "content":  {
+            "label": "Content"
+        },
+        "uploadImage":  {
+            "label": "Upload image"
+        },
+        "uploadedImage": {
+            "label": "Uploaded image"
+        },
+        "tags":  {
+            "label": "Tags"
+        },
+        "ai": {
+            "label" : "AI"
+        },
+        "aiError": {
+            "label" : "Content generation failed"
+        },
+        "selectTags":  {
+            "label": "Select tags"
+        },
+        "publish":  {
+            "label": "Publish"
+        },
+        "titleTooLong": {
+            "label": "Title must be shorter than 255 characters"
+        },
+        "contentTooLong": {
+            "label": "Content must be shorter than 5000 characters"
+        },
+        "titleTooShort": {
+            "label": "Title must be at least 30 characters long"
+        },
+        "contentTooShort": {
+            "label": "Content must be at least 30 characters long"
+        },
+        "editArticleHeader": {
+            "label": "Edit your article"
+        },
+        "deleteArticle": {
+            "label": "Delete article"
+        },
+        "deleteArticleConfirmation": {
+            "label": "Are you sure you want to delete this article?"
+        }
+    },
+
+    "editTags": {
+        "id": {
+            "label": "ID"
+        },
+        "engName": {
+            "label": "English name"
+        },
+        "plName": {
+            "label": "Polish name"
+        },
+        "deletedOn": {
+            "label": "Deleted on"
+        },
+        "engNameRequired": {
+            "label": "English name is required"
+        },
+        "plNameRequired": {
+            "label": "Polish name is required"
+        },
+        "addTag": {
+            "label": "Add new tag"
+        },
+        "deleteConfirmation": {
+            "label": "Are you sure you want to delete this tag?"
+        },
+        "confirm": {
+            "label": "Confirm"
+        },
+        "cancel": {
+            "label": "Cancel"
+        },
+        "notApplicable": {
+            "label": "N/A"
+        }
+    },
+
+    "editArticlesStatus" : {
+        "id": {
+            "label": "ID"
+        },
+        "userAccountId": {
+            "label": "User Account ID"
+        },
+        "userAccountUsername": {
+            "label": "Username"
+        },
+        "title":  {
+            "label": "Title"
+        },
+        "content":  {
+            "label": "Content"
+        },
+        "preview":  {
+            "label": "Preview"
+        },
+        "createdAt":  {
+            "label": "Created at"
+        },
+        "actions": {
+            "label": "Actions"
+        },
+        "close": {
+            "label": "Close"
+        },
+        "imageDisplay": {
+            "label": "Show image"
+        },
+        "approveConfirmation": {
+            "label": "Are you sure you want to approve this article?"
+        },
+        "rejectConfirmation": {
+            "label": "Are you sure you want to reject this article?"
+        }
+    },
+
+    "errors": {
+        "default": {
+            "label": "Something went wrong, please try again later"
+        },
+        "sessionExpired": {
+            "label": "Session expired, please log in again"
+        },
+        "tagCannotBeRemoved": {
+            "label": "Tag cannot be deleted"
+        },
+        "pageNotFound": {
+            "label": "404 - Page not found"
+        },
+        "backToHome": {
+            "label": "Back to home page"
+        }
+    }
+}

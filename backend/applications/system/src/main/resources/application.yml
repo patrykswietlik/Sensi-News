@@ -1,0 +1,46 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/sensi-news-db
+    username: postgres
+    password: postgres
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+    database: postgresql
+  liquibase:
+    change-log: db/changelog/db-changelog-master.yml
+  security:
+    key: wzXYuvMYt6X6/LFAVrYVl3NLh4/vftE0Tm1lYQgKd/HurPFwvTe6rR5TcRzNcAJ+9jZV5K5UKGKVILVinQYn4JtKPcv1/pzv2MIgJRHSOPl9uUigLQcBKrarA39yjqEsO6Pwqtg8/ZRZF2+1Lt1yZgbEuvfDATrgNWhQJP8Tc47oNyMVC8R4ngm1a1QKYCFMK/fz2nnTvMm9nRuWj7QVLcDOQlPRJTF4bsgm0rb2gYJIiGkRopOq8KV/zGYTdFMIOe6DG2aUSrnr+cOybzs/gdF+uSaQBu8U9U+jeQvHgytw7bjPl9l812otRUHgDonspHR6TIe0k4u9nKhGefxMwOLlkayQkrA1ZY+j448z/7E=
+    token-expiration-in-ms: 1440000
+
+server:
+  servlet:
+    context-path: /api
+
+huggingface:
+  api:
+    url: https://api-inference.huggingface.co/models/gpt2
+    key: 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
+
+deep-translate:
+  api:
+    url: https://deep-translate1.p.rapidapi.com/language/translate/v2
+    key: 4735819e8bmshf9b563740c26562p1ecd85jsn0c31048c9902
+    host: deep-translate1.p.rapidapi.com
+    pl: pl
+    en: en
+
+cloudinary:
+  api:
+    key: cloudinary://487245171129438:fH7a8TFpg7fHSTqMBxbcztiVyik@sensi-news
+
+recaptcha:
+  api:
+    url: https://www.google.com/recaptcha/api/siteverify
+    secret: 6LfXyyUqAAAAAE37rdq_am5yOymTE8FTukbnm0ZD
+
